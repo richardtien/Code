@@ -49,13 +49,13 @@ int main()
  
   int size = sizeof(list)/sizeof(list[0]);
 
-  cout << "PRINTING LIST BEFORE BUBBLE SORT" << endl;
+  cout << "PRINTING LIST BEFORE INSERTION SORT" << endl;
   printArray(list,size);
 
   cout << "CALLING BUBBLE SORT FUNCTION" << endl;
   insertionSort(list,size);
 
-  cout << "PRINTING LIST AFTER BUBBLE SORT" << endl;
+  cout << "PRINTING LIST AFTER INSERTION SORT" << endl;
   printArray(list,size);
 
   return 0;

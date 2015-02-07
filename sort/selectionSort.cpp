@@ -51,13 +51,13 @@ int main()
  
   int size = sizeof(list)/sizeof(list[0]);
 
-  cout << "PRINTING LIST BEFORE BUBBLE SORT" << endl;
+  cout << "PRINTING LIST BEFORE SELECTION SORT" << endl;
   printArray(list,size);
 
   cout << "CALLING BUBBLE SORT FUNCTION" << endl;
   selectionSort(list,size);
 
-  cout << "PRINTING LIST AFTER BUBBLE SORT" << endl;
+  cout << "PRINTING LIST AFTER SELECTION SORT" << endl;
   printArray(list,size);
 
   return 0;
